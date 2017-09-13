@@ -1,4 +1,4 @@
-package org.vaadin.hene.expandingtextarea.widgetset.client.ui;
+package org.vaadin.ilgun.expandingtextarea.widgetset.client.ui;
 
 import com.vaadin.shared.communication.ServerRpc;
 

@@ -6,7 +6,7 @@ name := "ExpandingTextArea"
 
 version in ThisBuild := "2.0"
 
-organization in ThisBuild := "org.vaadin.hene"
+organization in ThisBuild := "org.vaadin.ilgun"
 
 crossPaths in ThisBuild := false
 

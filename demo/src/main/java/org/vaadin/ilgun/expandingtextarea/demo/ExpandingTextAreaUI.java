@@ -1,7 +1,7 @@
-package org.vaadin.hene.expandingtextarea.demo;
+package org.vaadin.ilgun.expandingtextarea.demo;
 
-import org.vaadin.hene.expandingtextarea.ExpandingTextArea;
-import org.vaadin.hene.expandingtextarea.ExpandingTextArea.RowsChangeListener;
+import org.vaadin.ilgun.expandingtextarea.ExpandingTextArea;
+import org.vaadin.ilgun.expandingtextarea.ExpandingTextArea.RowsChangeListener;
 
 import com.vaadin.annotations.PreserveOnRefresh;
 import com.vaadin.annotations.Theme;

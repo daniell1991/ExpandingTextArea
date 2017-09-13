@@ -1,7 +1,7 @@
-package org.vaadin.hene.expandingtextarea.widgetset.client.ui;
+package org.vaadin.ilgun.expandingtextarea.widgetset.client.ui;
 
-import org.vaadin.hene.expandingtextarea.ExpandingTextArea;
-import org.vaadin.hene.expandingtextarea.widgetset.client.ui.VExpandingTextArea.HeightChangedListener;
+import org.vaadin.ilgun.expandingtextarea.ExpandingTextArea;
+import org.vaadin.ilgun.expandingtextarea.widgetset.client.ui.VExpandingTextArea.HeightChangedListener;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.core.client.Scheduler;

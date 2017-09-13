@@ -1,10 +1,10 @@
-package org.vaadin.hene.expandingtextarea;
+package org.vaadin.ilgun.expandingtextarea;
 
 import java.io.Serializable;
 import java.lang.reflect.Method;
 
-import org.vaadin.hene.expandingtextarea.widgetset.client.ui.ExpandingTextAreaServerRpc;
-import org.vaadin.hene.expandingtextarea.widgetset.client.ui.ExpandingTextAreaState;
+import org.vaadin.ilgun.expandingtextarea.widgetset.client.ui.ExpandingTextAreaServerRpc;
+import org.vaadin.ilgun.expandingtextarea.widgetset.client.ui.ExpandingTextAreaState;
 
 import com.vaadin.server.PaintException;
 import com.vaadin.server.PaintTarget;
