@@ -1,11 +1,10 @@
-package org.vaadin.hene.expandingtextarea;
+package com.github.ilgun.expandingtextarea;
 
 import java.io.Serializable;
 import java.lang.reflect.Method;
 
-import org.vaadin.hene.expandingtextarea.widgetset.client.ui.ExpandingTextAreaServerRpc;
-import org.vaadin.hene.expandingtextarea.widgetset.client.ui.ExpandingTextAreaState;
-
+import com.github.ilgun.expandingtextarea.widgetset.client.ui.ExpandingTextAreaServerRpc;
+import com.github.ilgun.expandingtextarea.widgetset.client.ui.ExpandingTextAreaState;
 import com.vaadin.server.PaintException;
 import com.vaadin.server.PaintTarget;
 import com.vaadin.util.ReflectTools;
@@ -16,8 +15,6 @@ import com.vaadin.v7.ui.TextArea;
 /**
  * An extended version of {@link TextArea} that adapts its height to the
  * textual content.
- *
- * @author Henri Kerola / Vaadin
  */
 @SuppressWarnings("serial")
 public class ExpandingTextArea extends TextArea {
