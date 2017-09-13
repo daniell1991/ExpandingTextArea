@@ -4,7 +4,7 @@ import sbt.ScalaVersion
 
 name := "ExpandingTextArea"
 
-version in ThisBuild := "1.2.0"
+version in ThisBuild := "2.0"
 
 organization in ThisBuild := "org.vaadin.hene"
 
@@ -12,7 +12,7 @@ crossPaths in ThisBuild := false
 
 autoScalaLibrary in ThisBuild := false
 
-javacOptions in ThisBuild ++= Seq("-source", "1.6", "-target", "1.6")
+javacOptions in ThisBuild ++= Seq("-source", "1.8", "-target", "1.8")
 
 lazy val root = project.in(file(".")).aggregate(addon, demo)
 
