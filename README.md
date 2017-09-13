@@ -1,4 +1,9 @@
-# ExpandingTextArea
+# Vaadin 8 ExpandingTextArea
+
+####This is forked from ExpandingTextArea by Henri Kerola and made compatible with Vaadin 8.
+
+
+###From original project:
 
 ExpandingTextArea is an addon for the [Vaadin Framework](http://vaadin.com). It provides a version of the TextArea component, which adjusts its height automatically based on its content. Try out the [demo](http://hene.app.fi/ExpandingTextArea) to see how it works.
 
