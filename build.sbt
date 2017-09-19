@@ -1,6 +1,6 @@
 name := "ExpandingTextArea"
 
-version in ThisBuild := "2.0"
+version in ThisBuild := "2.0.1"
 
 organization in ThisBuild := "com.github.ilgun"
 
@@ -10,13 +10,23 @@ autoScalaLibrary in ThisBuild := false
 
 isSnapshot in ThisBuild := false
 
-javacOptions in ThisBuild ++= Seq("-source", "1.8", "-target", "1.8")
+publishArtifact in root := false
+lazy val root = project.in(file(".")).aggregate(addon)
 
-sources in doc in Compile := List()
+lazy val addon = project.settings(vaadinAddOnSettings :_*).settings(
+  name := "ExpandingTextArea",
+  libraryDependencies := Dependencies.addonDeps,
+  // Javadoc generation causes problems so disabling it for now
+  mappings in packageVaadinDirectoryZip <<= (packageSrc in Compile) map {
+    (src) => Seq((src, src.name))
+  },
+  sources in doc in Compile := List()
+)
 
 sonatypeProfileName in ThisBuild := "com.github.ilgun"
 
 useGpg in ThisBuild := true
+
 
 def publishSettings: Seq[Setting[_]] = Seq(
   publishMavenStyle in ThisBuild := true,
